@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:text="Ajouter"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="34dp" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:text="Modifier"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="34dp" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:text="Supprimer"
+            tools:layout_editor_absoluteX="277dp"
+            tools:layout_editor_absoluteY="34dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="383dp"
+            android:layout_height="match_parent"
+            android:hint="Entrer une nouvelle tache ">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listeItems"
+        android:layout_width="377dp"
+        android:layout_height="656dp"
+        android:layout_marginEnd="62dp" />
+
+
+</LinearLayout>
